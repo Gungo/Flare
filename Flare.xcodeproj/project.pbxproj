@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C99C4CB02140709D0081B193 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C4CAF2140709D0081B193 /* AppDelegate.swift */; };
+		C99C4CB22140709D0081B193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C4CB12140709D0081B193 /* ViewController.swift */; };
+		C99C4CB52140709D0081B193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99C4CB32140709D0081B193 /* Main.storyboard */; };
+		C99C4CB82140709D0081B193 /* Flare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C99C4CB62140709D0081B193 /* Flare.xcdatamodeld */; };
+		C99C4CBA214070A30081B193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99C4CB9214070A30081B193 /* Assets.xcassets */; };
+		C99C4CBD214070A30081B193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99C4CBB214070A30081B193 /* LaunchScreen.storyboard */; };
+		C99C4CC8214070A30081B193 /* FlareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C4CC7214070A30081B193 /* FlareTests.swift */; };
+		C99C4CD3214070A30081B193 /* FlareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C4CD2214070A30081B193 /* FlareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C99C4CC4214070A30081B193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99C4CA42140709D0081B193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99C4CAB2140709D0081B193;
+			remoteInfo = Flare;
+		};
+		C99C4CCF214070A30081B193 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C99C4CA42140709D0081B193 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C99C4CAB2140709D0081B193;
+			remoteInfo = Flare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C99C4CAC2140709D0081B193 /* Flare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99C4CAF2140709D0081B193 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C99C4CB12140709D0081B193 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C99C4CB42140709D0081B193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C99C4CB72140709D0081B193 /* Flare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flare.xcdatamodel; sourceTree = "<group>"; };
+		C99C4CB9214070A30081B193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C99C4CBC214070A30081B193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C99C4CBE214070A30081B193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99C4CC3214070A30081B193 /* FlareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99C4CC7214070A30081B193 /* FlareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlareTests.swift; sourceTree = "<group>"; };
+		C99C4CC9214070A30081B193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99C4CCE214070A30081B193 /* FlareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C99C4CD2214070A30081B193 /* FlareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlareUITests.swift; sourceTree = "<group>"; };
+		C99C4CD4214070A30081B193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C99C4CA92140709D0081B193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C4CC0214070A30081B193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C4CCB214070A30081B193 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C99C4CA32140709D0081B193 = {
+			isa = PBXGroup;
+			children = (
+				C99C4CAE2140709D0081B193 /* Flare */,
+				C99C4CC6214070A30081B193 /* FlareTests */,
+				C99C4CD1214070A30081B193 /* FlareUITests */,
+				C99C4CAD2140709D0081B193 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C99C4CAD2140709D0081B193 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C99C4CAC2140709D0081B193 /* Flare.app */,
+				C99C4CC3214070A30081B193 /* FlareTests.xctest */,
+				C99C4CCE214070A30081B193 /* FlareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C99C4CAE2140709D0081B193 /* Flare */ = {
+			isa = PBXGroup;
+			children = (
+				C99C4CAF2140709D0081B193 /* AppDelegate.swift */,
+				C99C4CB12140709D0081B193 /* ViewController.swift */,
+				C99C4CB32140709D0081B193 /* Main.storyboard */,
+				C99C4CB9214070A30081B193 /* Assets.xcassets */,
+				C99C4CBB214070A30081B193 /* LaunchScreen.storyboard */,
+				C99C4CBE214070A30081B193 /* Info.plist */,
+				C99C4CB62140709D0081B193 /* Flare.xcdatamodeld */,
+			);
+			path = Flare;
+			sourceTree = "<group>";
+		};
+		C99C4CC6214070A30081B193 /* FlareTests */ = {
+			isa = PBXGroup;
+			children = (
+				C99C4CC7214070A30081B193 /* FlareTests.swift */,
+				C99C4CC9214070A30081B193 /* Info.plist */,
+			);
+			path = FlareTests;
+			sourceTree = "<group>";
+		};
+		C99C4CD1214070A30081B193 /* FlareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C99C4CD2214070A30081B193 /* FlareUITests.swift */,
+				C99C4CD4214070A30081B193 /* Info.plist */,
+			);
+			path = FlareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C99C4CAB2140709D0081B193 /* Flare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99C4CD7214070A30081B193 /* Build configuration list for PBXNativeTarget "Flare" */;
+			buildPhases = (
+				C99C4CA82140709D0081B193 /* Sources */,
+				C99C4CA92140709D0081B193 /* Frameworks */,
+				C99C4CAA2140709D0081B193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flare;
+			productName = Flare;
+			productReference = C99C4CAC2140709D0081B193 /* Flare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C99C4CC2214070A30081B193 /* FlareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99C4CDA214070A30081B193 /* Build configuration list for PBXNativeTarget "FlareTests" */;
+			buildPhases = (
+				C99C4CBF214070A30081B193 /* Sources */,
+				C99C4CC0214070A30081B193 /* Frameworks */,
+				C99C4CC1214070A30081B193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99C4CC5214070A30081B193 /* PBXTargetDependency */,
+			);
+			name = FlareTests;
+			productName = FlareTests;
+			productReference = C99C4CC3214070A30081B193 /* FlareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C99C4CCD214070A30081B193 /* FlareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C99C4CDD214070A30081B193 /* Build configuration list for PBXNativeTarget "FlareUITests" */;
+			buildPhases = (
+				C99C4CCA214070A30081B193 /* Sources */,
+				C99C4CCB214070A30081B193 /* Frameworks */,
+				C99C4CCC214070A30081B193 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C99C4CD0214070A30081B193 /* PBXTargetDependency */,
+			);
+			name = FlareUITests;
+			productName = FlareUITests;
+			productReference = C99C4CCE214070A30081B193 /* FlareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C99C4CA42140709D0081B193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Luis;
+				TargetAttributes = {
+					C99C4CAB2140709D0081B193 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					C99C4CC2214070A30081B193 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C99C4CAB2140709D0081B193;
+					};
+					C99C4CCD214070A30081B193 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = C99C4CAB2140709D0081B193;
+					};
+				};
+			};
+			buildConfigurationList = C99C4CA72140709D0081B193 /* Build configuration list for PBXProject "Flare" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C99C4CA32140709D0081B193;
+			productRefGroup = C99C4CAD2140709D0081B193 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C99C4CAB2140709D0081B193 /* Flare */,
+				C99C4CC2214070A30081B193 /* FlareTests */,
+				C99C4CCD214070A30081B193 /* FlareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C99C4CAA2140709D0081B193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C4CBD214070A30081B193 /* LaunchScreen.storyboard in Resources */,
+				C99C4CBA214070A30081B193 /* Assets.xcassets in Resources */,
+				C99C4CB52140709D0081B193 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C4CC1214070A30081B193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C4CCC214070A30081B193 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C99C4CA82140709D0081B193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C4CB22140709D0081B193 /* ViewController.swift in Sources */,
+				C99C4CB82140709D0081B193 /* Flare.xcdatamodeld in Sources */,
+				C99C4CB02140709D0081B193 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C4CBF214070A30081B193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C4CC8214070A30081B193 /* FlareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C99C4CCA214070A30081B193 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C99C4CD3214070A30081B193 /* FlareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C99C4CC5214070A30081B193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99C4CAB2140709D0081B193 /* Flare */;
+			targetProxy = C99C4CC4214070A30081B193 /* PBXContainerItemProxy */;
+		};
+		C99C4CD0214070A30081B193 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C99C4CAB2140709D0081B193 /* Flare */;
+			targetProxy = C99C4CCF214070A30081B193 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C99C4CB32140709D0081B193 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99C4CB42140709D0081B193 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C99C4CBB214070A30081B193 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C99C4CBC214070A30081B193 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C99C4CD5214070A30081B193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C99C4CD6214070A30081B193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C99C4CD8214070A30081B193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BoysOnCouch.Flare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C99C4CD9214070A30081B193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BoysOnCouch.Flare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C99C4CDB214070A30081B193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BoysOnCouch.FlareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flare.app/Flare";
+			};
+			name = Debug;
+		};
+		C99C4CDC214070A30081B193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlareTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BoysOnCouch.FlareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flare.app/Flare";
+			};
+			name = Release;
+		};
+		C99C4CDE214070A30081B193 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BoysOnCouch.FlareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flare;
+			};
+			name = Debug;
+		};
+		C99C4CDF214070A30081B193 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = BoysOnCouch.FlareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C99C4CA72140709D0081B193 /* Build configuration list for PBXProject "Flare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99C4CD5214070A30081B193 /* Debug */,
+				C99C4CD6214070A30081B193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99C4CD7214070A30081B193 /* Build configuration list for PBXNativeTarget "Flare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99C4CD8214070A30081B193 /* Debug */,
+				C99C4CD9214070A30081B193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99C4CDA214070A30081B193 /* Build configuration list for PBXNativeTarget "FlareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99C4CDB214070A30081B193 /* Debug */,
+				C99C4CDC214070A30081B193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C99C4CDD214070A30081B193 /* Build configuration list for PBXNativeTarget "FlareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C99C4CDE214070A30081B193 /* Debug */,
+				C99C4CDF214070A30081B193 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C99C4CB62140709D0081B193 /* Flare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C99C4CB72140709D0081B193 /* Flare.xcdatamodel */,
+			);
+			currentVersion = C99C4CB72140709D0081B193 /* Flare.xcdatamodel */;
+			path = Flare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C99C4CA42140709D0081B193 /* Project object */;
+}
