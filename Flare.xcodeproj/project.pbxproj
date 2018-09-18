@@ -11,10 +11,12 @@
 		C99C4CB22140709D0081B193 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C4CB12140709D0081B193 /* ViewController.swift */; };
 		C99C4CB52140709D0081B193 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99C4CB32140709D0081B193 /* Main.storyboard */; };
 		C99C4CB82140709D0081B193 /* Flare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C99C4CB62140709D0081B193 /* Flare.xcdatamodeld */; };
-		C99C4CBA214070A30081B193 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99C4CB9214070A30081B193 /* Assets.xcassets */; };
 		C99C4CBD214070A30081B193 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99C4CBB214070A30081B193 /* LaunchScreen.storyboard */; };
 		C99C4CC8214070A30081B193 /* FlareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C4CC7214070A30081B193 /* FlareTests.swift */; };
 		C99C4CD3214070A30081B193 /* FlareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C4CD2214070A30081B193 /* FlareUITests.swift */; };
+		C99C4CE2214070E20081B193 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99C4CE1214070E20081B193 /* MapKit.framework */; };
+		C9D077B32150382B003E832B /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D077B22150382B003E832B /* GroupViewController.swift */; };
+		C9D077B721504BD5003E832B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D077B621504BD5003E832B /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +42,6 @@
 		C99C4CB12140709D0081B193 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C99C4CB42140709D0081B193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C99C4CB72140709D0081B193 /* Flare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Flare.xcdatamodel; sourceTree = "<group>"; };
-		C99C4CB9214070A30081B193 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C99C4CBC214070A30081B193 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C99C4CBE214070A30081B193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C99C4CC3214070A30081B193 /* FlareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +50,9 @@
 		C99C4CCE214070A30081B193 /* FlareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99C4CD2214070A30081B193 /* FlareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlareUITests.swift; sourceTree = "<group>"; };
 		C99C4CD4214070A30081B193 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99C4CE1214070E20081B193 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C9D077B22150382B003E832B /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		C9D077B621504BD5003E832B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99C4CE2214070E20081B193 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +88,7 @@
 				C99C4CC6214070A30081B193 /* FlareTests */,
 				C99C4CD1214070A30081B193 /* FlareUITests */,
 				C99C4CAD2140709D0081B193 /* Products */,
+				C99C4CE0214070E20081B193 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +108,8 @@
 				C99C4CAF2140709D0081B193 /* AppDelegate.swift */,
 				C99C4CB12140709D0081B193 /* ViewController.swift */,
 				C99C4CB32140709D0081B193 /* Main.storyboard */,
-				C99C4CB9214070A30081B193 /* Assets.xcassets */,
+				C9D077B22150382B003E832B /* GroupViewController.swift */,
+				C9D077B621504BD5003E832B /* Images.xcassets */,
 				C99C4CBB214070A30081B193 /* LaunchScreen.storyboard */,
 				C99C4CBE214070A30081B193 /* Info.plist */,
 				C99C4CB62140709D0081B193 /* Flare.xcdatamodeld */,
@@ -126,6 +133,14 @@
 				C99C4CD4214070A30081B193 /* Info.plist */,
 			);
 			path = FlareUITests;
+			sourceTree = "<group>";
+		};
+		C99C4CE0214070E20081B193 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C99C4CE1214070E20081B193 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +211,11 @@
 				TargetAttributes = {
 					C99C4CAB2140709D0081B193 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					C99C4CC2214070A30081B193 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -232,8 +252,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D077B721504BD5003E832B /* Images.xcassets in Resources */,
 				C99C4CBD214070A30081B193 /* LaunchScreen.storyboard in Resources */,
-				C99C4CBA214070A30081B193 /* Assets.xcassets in Resources */,
 				C99C4CB52140709D0081B193 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D077B32150382B003E832B /* GroupViewController.swift in Sources */,
 				C99C4CB22140709D0081B193 /* ViewController.swift in Sources */,
 				C99C4CB82140709D0081B193 /* Flare.xcdatamodeld in Sources */,
 				C99C4CB02140709D0081B193 /* AppDelegate.swift in Sources */,
@@ -435,6 +456,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CYY96N596;
 				INFOPLIST_FILE = Flare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6CYY96N596;
 				INFOPLIST_FILE = Flare/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
